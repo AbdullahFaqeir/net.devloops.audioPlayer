@@ -87,5 +87,5 @@ MIT
  - abdullah@devloops.net
 
 
-
+- This widget is dedicated to my Friend and Brother [Waleed Saleh](mailto:waleed@devloops.net)
 
