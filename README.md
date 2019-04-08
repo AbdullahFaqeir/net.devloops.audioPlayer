@@ -2,8 +2,16 @@
 Audio Player widget for Titanium with full-control with a design inspired by Apple Music Player.
 this widget provides a full audio player experience, it supports local files and urls.
 
+
+# Screenshots
+
+![Andrid](https://github.com/AbdullahFaqeir/net.devloops.audioPlayer/blob/master/screenshots/5.png?raw=true)
+![iOS iPhone](https://github.com/AbdullahFaqeir/net.devloops.audioPlayer/blob/master/screenshots/4.png?raw=true)
+![iOS iPad](https://github.com/AbdullahFaqeir/net.devloops.audioPlayer/blob/master/screenshots/4.jpeg?raw=true)
+
+
 # iOS
-On iOS this widget updated the Control Center with the current played item and reposneds to the events from the Control Center.
+On iOS this widget updates the Control Center with the current played item and reposneds to the events from the Control Center.
 
 # Android
 A Player Notification Controller will be provided later.
@@ -27,7 +35,7 @@ You can easily use the widget with the following way.
 Or you can create a instace of the widget programmatically with the following way.
 
 ```js
-var AudioPlayer = Alloy.createWidget('com.alfaqeir.lightbox').getView();
+var AudioPlayer = Alloy.createWidget('net.devloops.audioPlayer').getView();
 ```
 
 # API
@@ -61,8 +69,20 @@ The widget provides the following API.
 | net.devloops.audioPlayer.progress | Fired on the playing progress | Refer to Titanium Audio Player AP + e.str_duration & e.str_progress | 
 
 
+# Feature Work
+To allow updating the player artwork for each track, as well as updating the Control Center for iOS, the Player Notification for Android.
 
+# Contribution 
+Pull request are welcome to add any new features to the widget.
 
+License
+----
+
+MIT
+
+# Author 
+ - Abdullah Al-Faqeir
+ - abdullah@devloops.net
 
 
 
