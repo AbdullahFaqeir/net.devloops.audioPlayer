@@ -1,0 +1,13 @@
+{
+	"id": "net.devloops.audioPlayer",
+	"name": "Audio Player",
+	"description": "Complete Audio Player widget for both iOS and Android developed by Devloops.net",
+	"author": "Abdullah Al-Faqeir <abdullah@devloops.net>",
+	"version": "1.0",
+	"copyright": "Copyright (c) Devloops 2018",
+	"license": "Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version": "2.1",
+	"tags": "player,audio player,audio,music,music player",
+	"platforms": "android,ios"
+}

@@ -1,0 +1,34 @@
+<Alloy>
+	<View id="AudioPlayerView">
+		<View id="Overley"></View>
+		<View id="AudioPlayerCoverBox">
+			<ImageView id="AudioPlayerCover"></ImageView>
+		</View>
+		<View id="PlayerControllersBox">
+			<View id="SeekerContainer">
+				<View id="SeekerBox">
+					<View id="SeekerLine"></View>
+				</View>
+				<View id="SeekerCricle"></View>
+			</View>
+			<View id="TimesBox">
+				<Label id="TimeElapsed">00:00</Label>
+				<Label id="TimeLeft">-5:00</Label>
+			</View>
+			<View id="TrackTitles">
+				<Label id="TrackTitle">Min Kitab Alhob</Label>
+				<Label id="TrackAuthorAlbum">Kadim Al Saher - Kitab Alhob</Label>
+			</View>
+			<View id="PlayerControlsBox">
+				<ImageView id="BackwardBtn"></ImageView>
+				<ImageView id="PlayPauseBtn"></ImageView>
+				<ImageView id="ForwardBtn"></ImageView>
+			</View>
+			<View id="PlayerVolume">
+				<ImageView id="VolumeDown"></ImageView>
+				<Slider id="PlayerVolumeSlider"></Slider>
+				<ImageView id="VolumeUp"></ImageView>
+			</View>
+		</View>
+	</View>
+</Alloy>

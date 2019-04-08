@@ -1,0 +1,142 @@
+"Label": {
+	color: '#000',
+	font: {
+		fontSize: 18,
+		fontWeight: 'bold'
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+},
+"#AudioPlayerView":{
+	backgroundColor: 'transparent',
+	backgroundImage:WPATH( 'player_bg.jpg')
+},
+"#Overley":{
+	backgroundColor: 'black',
+	opacity: 0.4,
+	height:Titanium.UI.FILL,
+	width:Titanium.UI.FILL
+},
+"#AudioPlayerCoverBox":{
+	top: '10%',
+	width: 303,	
+	// height: 303
+},
+"#PlayerControllersBox":{
+	backgroundColor: 'white',
+	borderRadius: 20,
+	height: 250,
+	width: "90%",
+	bottom: '10%'
+},
+"#AudioPlayerCover":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	borderRadius: '7',
+	image:WPATH( 'controls/logo_big.png')
+},
+"#SeekerContainer":{
+	backgroundColor: "white",
+	height: '20',
+	top: '10%',
+	width: '80%'
+}
+"#SeekerBox":{
+	backgroundColor: "lightgray",
+	width: Titanium.UI.FILL,
+	height: '3'
+},
+"#SeekerLine":{
+	backgroundColor: 'black',
+	width: '0%',
+	height: '3',
+	left: 0,
+	top: 0
+},
+"#SeekerCricle":{
+	backgroundColor: 'gray',
+	width: 10,
+	borderRadius: 10,
+	height: 10,
+	left: 0
+},
+"#TimesBox":{
+	top: '18%',
+	// borderColor: 'black',
+	height:Titanium.UI.SIZE,
+	width: '80%'
+},
+"#TimeElapsed":{
+	left: 0,
+	color: 'gray',
+	font:{
+		fontSize: 12
+	}
+},
+"#TimeLeft":{
+	right: 0,
+	color: 'gray',
+	font:{
+		fontSize: 12
+	}
+},
+"#TrackTitles":{
+	top: '28%',
+	width: '80%',
+	height: '50'
+},
+"#TrackTitle":{
+	top: 0,
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE
+},
+"#TrackAuthorAlbum":{
+	bottom: 0,
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE,
+	color: '#00aeef'
+},
+"#PlayerControlsBox":{
+	top: '55%',
+	height: '50',
+	width: '80%'
+},
+"#BackwardBtn":{
+	top: 5,
+	left: 0,
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE,
+	image: WPATH( 'controls/backward.png')
+},
+"#PlayPauseBtn":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE,
+	image: WPATH( 'controls/play.png')
+},
+"#ForwardBtn":{
+	top: 5,
+	right: 0,
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE,
+	image: WPATH( 'controls/forward.png')
+},
+"#PlayerVolume":{
+	top: '80%',
+	height: '50',
+	width: '80%'
+},
+"#VolumeDown":{
+	width: '5%',
+	left: 0,
+	image: WPATH( 'controls/volume_down.png')
+},
+"#PlayerVolumeSlider":{
+	width: '90%',
+	tintColor: '#00aeef',
+	value: 100
+},
+"#VolumeUp":{
+	width: '5%',
+	right: 0,
+	image: WPATH( 'controls/volume_up.png')
+}
