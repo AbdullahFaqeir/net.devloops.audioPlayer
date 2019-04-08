@@ -1,3 +1,5 @@
+[![gitTio](http://gitt.io/badge.svg)](http://gitt.io/component/net.devloops.audioPlayer)
+
 # net.devloops.audioPlayer
 Audio Player widget for Titanium with full-control with a design inspired by Apple Music Player.
 this widget provides a full audio player experience, it supports local files and urls.
