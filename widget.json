@@ -5,7 +5,7 @@
 	"author": "Abdullah Al-Faqeir <abdullah@devloops.net>",
 	"version": "1.0",
 	"copyright": "Copyright (c) Devloops 2018",
-	"license": "Public Domain",
+	"license": "MIT",
 	"min-alloy-version": "1.0",
 	"min-titanium-version": "2.1",
 	"tags": "player,audio player,audio,music,music player",
