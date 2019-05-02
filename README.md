@@ -48,7 +48,7 @@ The widget provides the following API.
 | play() | Play the current track | None |
 | pause() | Pause the current track | None |
 | stop() | Stop the Audio Player | None |
-| setPlaylist9() | Set the playlist of the Player | Array of Objects Ex: [{url:'',title:'',album:''}] | 
+| setPlaylist() | Set the playlist of the Player | Array of Objects Ex: [{url:'',title:'',album:''}] | 
 | playItemAtIndex() | Plays an item from the playlist by it's index | Interger Ex: 0 or 1 |
 | next() | Play the next track in the playlist | None |
 | prev() | Play the previouse track in the playlist | None |
